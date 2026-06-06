@@ -1,0 +1,17 @@
+3400 0 2 0           
+20 CST MICROWAVE STUDIO 14 ACIS 34.0.1 NT 24 Sat Jun  6 11:53:16 2026 
+1 9.9999999999999995e-07 1e-10 
+T @77 8Q35MXGM_ZCENGFJ6RBJTTQ444TBX8NVRBTVKVPHBD5CKXP5UACMF673BBP4Q47VJ8P3G4QUP8F4R 
+vertex $2 -1 -1 $-1 $-1 $3 #
+vertex $4 -1 -1 $-1 $-1 $5 #
+name_attrib-gen-attrib $-1 -1 $6 $-1 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @18 ncomponent1:resist #
+point $-1 -1 -1 $-1 -33.899999999999999 -1.97 -0.52199999999999991 #
+name_attrib-gen-attrib $-1 -1 $7 $-1 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @18 ncomponent1:resist #
+point $-1 -1 -1 $-1 -10.899821426293673 0.050000000000000003 -0.54000000000000004 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $8 $2 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @17 backwd_pickNumber 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $9 $4 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @17 backwd_pickNumber 1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $10 $6 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @18 backwd_blockNumber 25 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $11 $7 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @18 backwd_blockNumber 26 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $8 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @9 backwd_id 31 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $9 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @9 backwd_id 36 #
+End-of-ACIS-data 
