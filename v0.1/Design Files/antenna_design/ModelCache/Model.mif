@@ -696,7 +696,7 @@ Solver.FrequencyRange "2", "3.5"
      .Reflection "False" 
      .Allowoutline "True" 
      .Transparentoutline "False" 
-     .Transparency "0" 
+     .Transparency "50" 
      .Create
 [ENDMATERIAL]
 [DISCRETEEDGE: 1]

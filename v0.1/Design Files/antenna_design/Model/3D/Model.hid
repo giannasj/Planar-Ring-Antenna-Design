@@ -1,5 +1,9 @@
 20100312
 [start]hidden_objects
+[start]ports
+[start]1
+[end]1
+[end]ports
 [end]hidden_objects
 [start]draw_workplane
 false
