@@ -7,13 +7,15 @@
    "outputVariables": [
       {
          "len": 1,
-         "name": "3D\\h-field (f=2.6385) (1)10000Mu0",
-         "type": "float"
+         "name": "3D\\h-field (f=2.87) (1)10000Mu0",
+         "type": "float",
+         "value": 0.0
       },
       {
          "len": 1,
-         "name": "3D\\h-field (f=2.87) (1)10000Mu0",
-         "type": "float"
+         "name": "3D\\1h-field (f=2.58) (1)10000Mu0",
+         "type": "float",
+         "value": 0.0
       }
    ]
 }

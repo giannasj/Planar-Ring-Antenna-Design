@@ -102,19 +102,25 @@ End Sub
 Function EvaluateExpression(A_cst_tmp As Variant, B_cst_tmp As Variant, C_cst_tmp As Variant, D_cst_tmp As Variant, E_cst_tmp As Variant, F_cst_tmp As Variant) As Object
 Dim  TmpResult_Final As Object
 ' The following line in this template will be/has been replaced with the VBA command chain
-Dim NumObject_17_2 As Object
-Set NumObject_17_2 = GetRes1DComplexFrom1DCNumeric(10000,0,callingApp)
-NumObject_17_2.MakeCompatibleTo(GetRes1DComplexFrom1DCNumeric(0,0))
-Dim TmpResult_17 As Object
-Set TmpResult_17 = A_cst_tmp.Copy()
-ComplexScalarMult3D(TmpResult_17,NumObject_17_2)
-Dim NumObject_23_2 As Object
-Set NumObject_23_2 = GetRes1DComplexFrom1DCNumeric(1.25663706212E-06,0,callingApp)
-NumObject_23_2.MakeCompatibleTo(GetRes1DComplexFrom1DCNumeric(0,0))
-Dim TmpResult_23 As Object
-Set TmpResult_23 = TmpResult_17.Copy()
-ComplexScalarMult3D(TmpResult_23,NumObject_23_2)
-Set TmpResult_Final = TmpResult_23
+Dim NumObject_13_2 As Object
+Set NumObject_13_2 = GetRes1DComplexFrom1DCNumeric(1,0,callingApp)
+NumObject_13_2.MakeCompatibleTo(GetRes1DComplexFrom1DCNumeric(0,0))
+Dim TmpResult_13 As Object
+Set TmpResult_13 = A_cst_tmp.Copy()
+ComplexScalarMult3D(TmpResult_13,NumObject_13_2)
+Dim NumObject_21_2 As Object
+Set NumObject_21_2 = GetRes1DComplexFrom1DCNumeric(10000,0,callingApp)
+NumObject_21_2.MakeCompatibleTo(GetRes1DComplexFrom1DCNumeric(0,0))
+Dim TmpResult_21 As Object
+Set TmpResult_21 = TmpResult_13.Copy()
+ComplexScalarMult3D(TmpResult_21,NumObject_21_2)
+Dim NumObject_27_2 As Object
+Set NumObject_27_2 = GetRes1DComplexFrom1DCNumeric(1.25663706212E-06,0,callingApp)
+NumObject_27_2.MakeCompatibleTo(GetRes1DComplexFrom1DCNumeric(0,0))
+Dim TmpResult_27 As Object
+Set TmpResult_27 = TmpResult_21.Copy()
+ComplexScalarMult3D(TmpResult_27,NumObject_27_2)
+Set TmpResult_Final = TmpResult_27
 
 Set EvaluateExpression = TmpResult_Final
 End Function

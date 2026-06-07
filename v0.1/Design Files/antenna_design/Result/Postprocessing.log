@@ -1,0 +1,30 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2026-06-07 12:20:25
+
+  Evaluating 'h-field (f=2.87) (1)10000Mu0': 2.144 s
+
+  Total time: 2 s  ( = 0 h, 0 m, 2 s )
+
+Template based post-processing finished at: 2026-06-07 12:20:27
+----------------------------------------------------------------------------------------
+Template based post-processing started at: 2026-06-07 12:29:09
+
+  Error: (&H8000ffff) (10094) ActiveX Automation: Object var is 'Nothing'.
+(Set TmpResult_17 = A_cst_tmp.Copy())(Line:109)(file:C:\Users\jimmy\OneDrive\Documents\GitHub\Planar-Ring-Antenna-Design\v0.1\Design Files\antenna_design\Result\mix_tmp3D.bas)
+(RunScript scriptFile)(Line:394)
+  Evaluating 'h-field (f=2.87) (1)10000Mu0': 0.184 s
+
+  Total time: 0 s  ( = 0 h, 0 m, 0 s )
+
+Template based post-processing finished at: 2026-06-07 12:29:09
+----------------------------------------------------------------------------------------

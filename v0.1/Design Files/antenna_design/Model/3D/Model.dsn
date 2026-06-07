@@ -3,7 +3,7 @@
 Number of ports: 1
 Portnames: "1"
 Modenumbers: 1
-Porttypes: 1
+Porttypes: 4
 Portlabels: ""
 StaticSources:
 ThermalSources:
@@ -21,7 +21,7 @@ SchematicToReferenceTable:
 StaticSourceGroups:
 ThermalSourceGroups:
 TerminalSourceGroups:
-PortSourceGroups:
+PortSourceGroups: "1" "l" "0" "0" "0"
 FloquetPortSourceGroups:
 SchematicPortSourceGroups:
 Number of frequency-points: 1
@@ -37,11 +37,7 @@ Fscale: 1.000000e+09
 SetType: 100
 Portname: 1
 Modenumber: 1
-Modetype: 6
-Zline: 5.000000e+01 0.000000e+00
-Fdev: 2.750000e+09
-Fmin: 2.000000e+09
-Fmax: 3.500000e+09
+Modetype: 4
 PortModeConsState: 0
 *** endmode
 
@@ -51,9 +47,9 @@ PortModeConsState: 0
 
 
 *** newmonitor
-monname: "h-field (f=2.6385)"
+monname: "h-field (f=2.87)"
 nmonfrequencies: 1
-monfrequencies: "2.6385299999999998" 
+monfrequencies: "2.8700000000000001" 
 montype: 1
 mondomain: 1
 mon_fmin: ""
@@ -62,9 +58,9 @@ mon_nfSteps: ""
 *** endmonitor
 
 *** newmonitor
-monname: "h-field (f=2.87)"
+monname: "h-field (f=2.58)"
 nmonfrequencies: 1
-monfrequencies: "2.8700000000000001" 
+monfrequencies: "2.5800000000000001" 
 montype: 1
 mondomain: 1
 mon_fmin: ""

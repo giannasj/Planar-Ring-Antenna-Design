@@ -4,8 +4,8 @@
 [PCB_IMPORT: False]
 [PCB_IMPORT_NEW: False]
 [DISABLE_FAST_LOAD: False]
-[BBOX:-59.900000000000006 54.100000000000001 -36 36 -28.158000000000001 26]
-[BBOX_STRUCTURE:-33.900000000000006 28.100000000000001 -10 10 -2.1579999999999999 0]
+[BBOX:-59.899999999999999 54.100000000000001 -36 36 -28.158000000000001 26.678000000000001]
+[BBOX_STRUCTURE:-33.899999999999999 28.100000000000001 -10 10 -2.1579999999999999 0.67800000000000005]
 [UNITS]
      .SetUnit "Length", "mm"
      .SetUnit "Temperature", "degC"
@@ -699,19 +699,29 @@ Solver.FrequencyRange "2", "3.5"
      .Transparency "50" 
      .Create
 [ENDMATERIAL]
-[DISCRETEEDGE: 1]
-     .Type "SParameter"
+[WAVEGUIDE: 1]
      .Label ""
      .Folder ""
-     .Impedance "50.0"
-     .Voltage "1.0"
-     .Current "1.0"
-     .Monitor "True"
-     .Radius "0"
-     .SetP1 "False", "-33.899999999999999", "-0.32000000000000001", "-0.54000000000000004"
-     .SetP2 "False", "-33.899999999999999", "-0.32000000000000001", "-2.1579999999999999"
-     .InvertDirection "False"
-     .LocalCoordinates "False"
-     .Wire ""
-     .Position "end1"
-[ENDDISCRETEEDGE]
+     .NumberOfModes "1"
+     .AdjustPolarization "False"
+     .PolarizationAngle "0"
+     .ReferencePlaneDistance "0"
+     .TextSize "50"
+     .TextMaxLimit "0"
+     .Coordinates "Free"
+     .Orientation "zmin"
+     .PortOnBound "False"
+     .ClipPickedPortToBound "False"
+     .Xrange "0", "20"
+     .Yrange "0", "2.8359999999999999"
+     .Zrange "0", "0"
+     .XrangeAdd "0.0", "0.0"
+     .YrangeAdd "0.0", "0.0"
+     .ZrangeAdd "0.0", "0.0"
+     .SingleEnded "False"
+     .AddPotentialNumerically "1", "positive", "9.680000", "1.627000"
+     .AddPotentialNumerically "1", "negative", "9.680000", "0.009000"
+     .WaveguideMonitor "False"
+     .ReferenceWCS "10", "1.418", "0", "0", "0", "-1", "0", "1", "0"
+(TRANSFORM) "0", "1", "0", "0", "0", "1", "1", "0", "0"| "-33.9", "-10", "-2.158"(ENDTRANSFORM)
+[ENDWAVEGUIDE]

@@ -2,17 +2,6 @@
 0
 0
 2
-h-field (f=2.6385) (1)10000Mu0
-- Mix 3D Fields
-1
-0D
-2D and 3D Field Results
-P
-ED10
-- Mix 3D Fields.rtp
-VBA
-1
-h-field (f=2.6385) (1)10000Mu0
 h-field (f=2.87) (1)10000Mu0
 - Mix 3D Fields
 1
@@ -24,7 +13,18 @@ ED10
 VBA
 1
 h-field (f=2.87) (1)10000Mu0
-7
+1h-field (f=2.58) (1)10000Mu0
+- Mix 3D Fields
+1
+0D
+2D and 3D Field Results
+P
+ED10
+- Mix 3D Fields.rtp
+VBA
+1
+1h-field (f=2.58) (1)10000Mu0
+8
 1:Tables\0D Results\h-field (f=2.87) (1)1e-33.14159265354
 2:Tables\0D Results\h-field (f=2.63) (1)4PiMu010000
 3:Tables\0D Results\h-field (f=2.63) (1)4PiMu010000
@@ -32,3 +32,4 @@ h-field (f=2.87) (1)10000Mu0
 5:Tables\0D Results\h-field (f=2.6385) (1)10000Mu0
 6:Tables\0D Results\h-field (f=2.87) (1)10000Mu0
 7:Tables\0D Results\h-field (f=2.6385) (1)10000Mu0
+8:Tables\0D Results\1h-field (f=2.58) (1)10000Mu0

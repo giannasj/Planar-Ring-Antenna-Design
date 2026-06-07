@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928">
+  <Objects>
+    <Object name="Components\component1:diamond" id="1"/>
+    <Object name="Components\component1:resist" id="2"/>
+    <Object name="Components\component1:substrate" id="3"/>
+    <Object name="Components\component1:antenna" id="4"/>
+    <Object name="Components\component1:ground" id="5"/>
+  </Objects>
+  <Materials/>
+  <Groups>
+    <Group name="Isolators" ID="1">
+      <Item name="Components\component1:diamond" id="1"/>
+      <Item name="Components\component1:resist" id="2"/>
+      <Item name="Components\component1:substrate" id="3"/>
+    </Group>
+    <Group name="Unconsidered" ID="1">
+      <Item name="Components\component1:antenna" id="4"/>
+      <Item name="Components\component1:ground" id="5"/>
+    </Group>
+  </Groups>
+</CSTAuxiliaryGeometry>
