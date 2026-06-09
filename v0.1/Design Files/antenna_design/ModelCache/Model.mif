@@ -4,8 +4,8 @@
 [PCB_IMPORT: False]
 [PCB_IMPORT_NEW: False]
 [DISABLE_FAST_LOAD: False]
-[BBOX:-59.899999999999999 54.100000000000001 -36 36 -28.158000000000001 26.678000000000001]
-[BBOX_STRUCTURE:-33.899999999999999 28.100000000000001 -10 10 -2.1579999999999999 0.67800000000000005]
+[BBOX:-59.899999999999999 54.100000000000001 -36 36 -28.158000000000001 26.978000000000002]
+[BBOX_STRUCTURE:-33.899999999999999 28.100000000000001 -10 10 -2.1579999999999999 0.97800000000000009]
 [UNITS]
      .SetUnit "Length", "mm"
      .SetUnit "Temperature", "degC"
@@ -713,7 +713,7 @@ Solver.FrequencyRange "2", "3.5"
      .PortOnBound "False"
      .ClipPickedPortToBound "False"
      .Xrange "0", "20"
-     .Yrange "0", "2.8359999999999999"
+     .Yrange "0", "3.1360000000000001"
      .Zrange "0", "0"
      .XrangeAdd "0.0", "0.0"
      .YrangeAdd "0.0", "0.0"
@@ -722,6 +722,60 @@ Solver.FrequencyRange "2", "3.5"
      .AddPotentialNumerically "1", "positive", "9.680000", "1.627000"
      .AddPotentialNumerically "1", "negative", "9.680000", "0.009000"
      .WaveguideMonitor "False"
-     .ReferenceWCS "10", "1.418", "0", "0", "0", "-1", "0", "1", "0"
+     .ReferenceWCS "10", "1.568", "0", "0", "0", "-1", "0", "1", "0"
 (TRANSFORM) "0", "1", "0", "0", "0", "1", "1", "0", "0"| "-33.9", "-10", "-2.158"(ENDTRANSFORM)
 [ENDWAVEGUIDE]
+[GROUPS]
+Group.Add "meshgroup1", "mesh"
+With MeshSettings
+     With .ItemMeshSettings ("group$meshgroup1")
+          .SetMeshType "Hex"
+          .SetWithVersion "2025.4|34.0.1|20250411", "ConsiderGlobalEdgeRefinement", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "ConsiderGlobalFaceRefinement", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "ConsiderGlobalMaterialRefinement", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "ConsiderGlobalRefinement", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "ConsiderGlobalSnapping", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "EdgeRefinementApplyBufferInDir", 1, 1, 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "EdgeRefinementBufferLines", 3
+          .SetWithVersion "2025.4|34.0.1|20250411", "EdgeRefinementRatio", "2"
+          .SetWithVersion "2025.4|34.0.1|20250411", "EdgeRefinementRefineInDir", 1, 1, 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "EdgeRefinementStep", "0"
+          .SetWithVersion "2025.4|34.0.1|20250411", "EdgeRefinementType", "RATIO"
+          .SetWithVersion "2025.4|34.0.1|20250411", "EllipseRefinementNSteps", 2
+          .SetWithVersion "2025.4|34.0.1|20250411", "EllipseRefinementRatio", 2
+          .SetWithVersion "2025.4|34.0.1|20250411", "EllipseRefinementStep", 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "EllipseRefinementType", "NONE"
+          .SetWithVersion "2025.4|34.0.1|20250411", "FaceRefinementBufferLines", 3
+          .SetWithVersion "2025.4|34.0.1|20250411", "FaceRefinementNSteps", 2
+          .SetWithVersion "2025.4|34.0.1|20250411", "FaceRefinementRatio", 2
+          .SetWithVersion "2025.4|34.0.1|20250411", "FaceRefinementStep", 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "FaceRefinementType", "NONE"
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnappingIntervals", 0, 0, 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnappingPriority", 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToAxialEdges", 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToCylinderCenters", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToCylinders", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToEllipseCenters", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToEllipses", 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToObjectBoundaries", 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToPlanes", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToSpheres", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToTori", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapToVertices", 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "SnapXYZ", "1", "1", "1"
+          .SetWithVersion "2025.4|34.0.1|20250411", "UseMaterialRefinement", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "UseSnappingPriority", 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementExtentNumSteps", 3, 3, 3
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementExtentStep", 0, 0, 0
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementExtentType", "STEPS_PER_DIM"
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementExtentValueUseSameXYZ", 1
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementNumSteps", "0", "0", "0"
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementRatio", "2", "2", "2"
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementScopeType", "ALL"
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementStep", "0", "0", "0"
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementType", "NONE"
+          .SetWithVersion "2025.4|34.0.1|20250411", "VolumeRefinementValueUseSameXYZ", 1
+     End With
+End With
+Group.AddItem "solid$component1:antenna", "meshgroup1"
+[ENDGROUPS]

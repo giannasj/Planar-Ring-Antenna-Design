@@ -28,7 +28,7 @@ open-add-space, open-add-space, open-add-space, open-add-space, open-add-space, 
    + numa nodes                  : 1
    + Numa Memory Info
      numa node     installed     available    (MByte)
-       0                 0         17440
+       0                 0         13534
    + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
 performance cores:
 apic ids           : 32, 33, 16, 17, 24, 25, 40, 41, 48, 49, 56, 57
@@ -120,11 +120,11 @@ Concurrency: 0
 Start ID: 0
 Node ID: 0
 HEX Mesh information:
-Hex mesh: global: [hxr o(0 | 0 | 0) s(4 | 25 | 7) np (no TSTs): 700] 
+Hex mesh: global: [hxr o(0 | 0 | 0) s(4 | 25 | 8) np (no TSTs): 800] 
 ===================================================================================================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Sun Sun Jun  7 12:19:15 2026
+Mon Mon Jun  8 15:38:12 2026
 started: calculating matrix coefficients
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -137,7 +137,7 @@ PBA version: default, 2.20240218
 Model compatibility: 2025.20250411
 Sub-Workflow: FARM-1x1-TST2
 Workflow updated: -
-Sun Sun Jun  7 12:19:15 2026
+Mon Mon Jun  8 15:38:12 2026
 ============================================================
 
 ----------------------------------------------
@@ -252,7 +252,7 @@ TST specials: -
 ===============
 
 =========================================================================================================================================
-TST cell analysis in range (0 | 0 | 0) -> (4 | 25 | 7) [total range (0 | 0 | 0) -> (4 | 25 | 7)]  [mpi range (0 | 0 | 0) -> (4 | 25 | 7)]
+TST cell analysis in range (0 | 0 | 0) -> (4 | 25 | 8) [total range (0 | 0 | 0) -> (4 | 25 | 8)]  [mpi range (0 | 0 | 0) -> (4 | 25 | 8)]
 =========================================================================================================================================
 
 -------------------
@@ -303,10 +303,10 @@ Finished matrix computation (PBA)
 =================================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Sun Sun Jun  7 12:19:17 2026
+Mon Mon Jun  8 15:38:14 2026
 Resource usage for calculating matrix coefficients:
-	Runtime                          00:00:01.00581 s
-	Peak Memory Usage:                        35 MB
+	Runtime                          00:00:01.00519 s
+	Peak Memory Usage:                        36 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 --------------------------------
@@ -347,7 +347,7 @@ open-add-space, open-add-space, open-add-space, open-add-space, open-add-space, 
    + numa nodes                  : 1
    + Numa Memory Info
      numa node     installed     available    (MByte)
-       0                 0         17435
+       0                 0         13566
    + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
 performance cores:
 apic ids           : 32, 33, 16, 17, 24, 25, 40, 41, 48, 49, 56, 57
@@ -439,11 +439,11 @@ Concurrency: 0
 Start ID: 0
 Node ID: 0
 HEX Mesh information:
-Hex mesh: global: [hxr o(0 | 0 | 0) s(4 | 34 | 10) np (no TSTs): 1360] 
+Hex mesh: global: [hxr o(0 | 0 | 0) s(4 | 35 | 12) np (no TSTs): 1680] 
 ===================================================================================================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Sun Sun Jun  7 12:19:20 2026
+Mon Mon Jun  8 15:38:18 2026
 started: calculating matrix coefficients
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -456,7 +456,7 @@ PBA version: default, 2.20240218
 Model compatibility: 2025.20250411
 Sub-Workflow: FARM-1x1-TST2
 Workflow updated: -
-Sun Sun Jun  7 12:19:20 2026
+Mon Mon Jun  8 15:38:18 2026
 ============================================================
 
 ----------------------------------------------
@@ -571,7 +571,7 @@ TST specials: -
 ===============
 
 ============================================================================================================================================
-TST cell analysis in range (0 | 0 | 0) -> (4 | 34 | 10) [total range (0 | 0 | 0) -> (4 | 34 | 10)]  [mpi range (0 | 0 | 0) -> (4 | 34 | 10)]
+TST cell analysis in range (0 | 0 | 0) -> (4 | 35 | 12) [total range (0 | 0 | 0) -> (4 | 35 | 12)]  [mpi range (0 | 0 | 0) -> (4 | 35 | 12)]
 ============================================================================================================================================
 
 -------------------
@@ -622,10 +622,10 @@ Finished matrix computation (PBA)
 =================================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Sun Sun Jun  7 12:19:22 2026
+Mon Mon Jun  8 15:38:21 2026
 Resource usage for calculating matrix coefficients:
-	Runtime                          00:00:01.00938 s
-	Peak Memory Usage:                        44 MB
+	Runtime                          00:00:02.00198 s
+	Peak Memory Usage:                        48 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 --------------------------------
@@ -666,7 +666,7 @@ open-add-space, open-add-space, open-add-space, open-add-space, open-add-space, 
    + numa nodes                  : 1
    + Numa Memory Info
      numa node     installed     available    (MByte)
-       0                 0         17438
+       0                 0         13556
    + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
 performance cores:
 apic ids           : 32, 33, 16, 17, 24, 25, 40, 41, 48, 49, 56, 57
@@ -758,11 +758,11 @@ Concurrency: 0
 Start ID: 0
 Node ID: 0
 HEX Mesh information:
-Hex mesh: global: [hxr o(0 | 0 | 0) s(4 | 45 | 15) np (no TSTs): 2700] 
+Hex mesh: global: [hxr o(0 | 0 | 0) s(4 | 46 | 18) np (no TSTs): 3312] 
 ===================================================================================================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Sun Sun Jun  7 12:19:26 2026
+Mon Mon Jun  8 15:38:25 2026
 started: calculating matrix coefficients
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -775,7 +775,7 @@ PBA version: default, 2.20240218
 Model compatibility: 2025.20250411
 Sub-Workflow: FARM-1x1-TST2
 Workflow updated: -
-Sun Sun Jun  7 12:19:26 2026
+Mon Mon Jun  8 15:38:26 2026
 ============================================================
 
 ----------------------------------------------
@@ -890,16 +890,16 @@ TST specials: -
 ===============
 
 ============================================================================================================================================
-TST cell analysis in range (0 | 0 | 0) -> (4 | 45 | 15) [total range (0 | 0 | 0) -> (4 | 45 | 15)]  [mpi range (0 | 0 | 0) -> (4 | 45 | 15)]
+TST cell analysis in range (0 | 0 | 0) -> (4 | 46 | 18) [total range (0 | 0 | 0) -> (4 | 46 | 18)]  [mpi range (0 | 0 | 0) -> (4 | 46 | 18)]
 ============================================================================================================================================
 
--------------------
+---------------------
 TST Statistics:
-E Split (0 | 0 | 0)
-E Adapt (0 | 0 | 0)
-B Split (0 | 0 | 0)
+E Split (0 | 0 | 12)
+E Adapt (6 | 10 | 10)
+B Split (16 | 12 | 0)
 B Adapt (0 | 0 | 0)
--------------------
+---------------------
 
 -------------------------------------------------------------
 TST Version 2.20240218, tst tiny faces fix: on, TST1 BWC: off
@@ -941,10 +941,10 @@ Finished matrix computation (PBA)
 =================================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Sun Sun Jun  7 12:19:28 2026
+Mon Mon Jun  8 15:38:28 2026
 Resource usage for calculating matrix coefficients:
-	Runtime                          00:00:02.00150 s
-	Peak Memory Usage:                        60 MB
+	Runtime                          00:00:02.00734 s
+	Peak Memory Usage:                        69 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 --------------------------------
@@ -985,7 +985,7 @@ open-add-space, open-add-space, open-add-space, open-add-space, open-add-space, 
    + numa nodes                  : 1
    + Numa Memory Info
      numa node     installed     available    (MByte)
-       0                 0         17426
+       0                 0         13431
    + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
 performance cores:
 apic ids           : 32, 33, 16, 17, 24, 25, 40, 41, 48, 49, 56, 57
@@ -1077,11 +1077,11 @@ Concurrency: 0
 Start ID: 0
 Node ID: 0
 HEX Mesh information:
-Hex mesh: global: [hxr o(0 | 0 | 0) s(4 | 56 | 25) np (no TSTs): 5600] 
+Hex mesh: global: [hxr o(0 | 0 | 0) s(4 | 59 | 29) np (no TSTs): 6844] 
 ===================================================================================================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Sun Sun Jun  7 12:19:33 2026
+Mon Mon Jun  8 15:38:34 2026
 started: calculating matrix coefficients
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -1094,7 +1094,7 @@ PBA version: default, 2.20240218
 Model compatibility: 2025.20250411
 Sub-Workflow: FARM-1x1-TST2
 Workflow updated: -
-Sun Sun Jun  7 12:19:33 2026
+Mon Mon Jun  8 15:38:34 2026
 ============================================================
 
 ----------------------------------------------
@@ -1209,16 +1209,16 @@ TST specials: -
 ===============
 
 ============================================================================================================================================
-TST cell analysis in range (0 | 0 | 0) -> (4 | 56 | 25) [total range (0 | 0 | 0) -> (4 | 56 | 25)]  [mpi range (0 | 0 | 0) -> (4 | 56 | 25)]
+TST cell analysis in range (0 | 0 | 0) -> (4 | 59 | 29) [total range (0 | 0 | 0) -> (4 | 59 | 29)]  [mpi range (0 | 0 | 0) -> (4 | 59 | 29)]
 ============================================================================================================================================
 
--------------------
+-----------------------
 TST Statistics:
-E Split (0 | 0 | 0)
-E Adapt (0 | 0 | 0)
-B Split (0 | 0 | 0)
+E Split (0 | 0 | 126)
+E Adapt (63 | 68 | 69)
+B Split (132 | 126 | 0)
 B Adapt (0 | 0 | 0)
--------------------
+-----------------------
 
 -------------------------------------------------------------
 TST Version 2.20240218, tst tiny faces fix: on, TST1 BWC: off
@@ -1260,10 +1260,10 @@ Finished matrix computation (PBA)
 =================================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Sun Sun Jun  7 12:19:36 2026
+Mon Mon Jun  8 15:38:38 2026
 Resource usage for calculating matrix coefficients:
-	Runtime                          00:00:03.00002 s
-	Peak Memory Usage:                        95 MB
+	Runtime                          00:00:03.00996 s
+	Peak Memory Usage:                       112 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 --------------------------------
@@ -1279,7 +1279,7 @@ Frontend-Node:  ================================================================
                 =======================================================================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Sun Sun Jun  7 12:19:43 2026
+Mon Mon Jun  8 15:38:45 2026
 started: parallelization control
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -1300,7 +1300,7 @@ Access to CPU cores has been restricted for this process, reduce number of paral
    + numa nodes                  : 1
    + Numa Memory Info
      numa node     installed     available    (MByte)
-       0                 0         17444
+       0                 0         13202
    + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
 performance cores:
 apic ids           : 32, 33, 16, 17, 24, 25, 40, 41, 48, 49, 56, 57
@@ -1392,11 +1392,11 @@ Concurrency: 0
 Start ID: 0
 Node ID: 0
 HEX Mesh information:
-Hex mesh: global: [hxr o(0 | 0 | 0) s(73 | 41 | 22) np (no TSTs): 65846] 
+Hex mesh: global: [hxr o(0 | 0 | 0) s(69 | 41 | 23) np (no TSTs): 65067] 
 =========================================================================
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Sun Sun Jun  7 12:19:43 2026
+Mon Mon Jun  8 15:38:45 2026
 started: processing CAD model
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -1409,7 +1409,7 @@ PBA version: default, 2.20240218
 Model compatibility: 2025.20250411
 Sub-Workflow: Facets-QQ-GEX
 Workflow updated: -
-Sun Sun Jun  7 12:19:43 2026
+Mon Mon Jun  8 15:38:45 2026
 ========================================================================
 
 ========================================================================
@@ -1421,16 +1421,20 @@ Finished CAD processing (for field results)
 ===========================================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Sun Sun Jun  7 12:19:44 2026
+Mon Mon Jun  8 15:38:46 2026
 Resource usage for processing CAD model:
-	Runtime                 00:00:00.00883 s
+	Runtime                 00:00:01.00078 s
 	Peak Memory Usage:               19 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Sun Sun Jun  7 12:19:44 2026
+Mon Mon Jun  8 15:38:46 2026
 started: processing CAD model
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>2026-06-08 15:38:46.00888< matrixcalc_AMD64 @ gurt:  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                                                      current system memory usage reached 60%
+                                                      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ========================================================================
 Processing CAD model
@@ -1441,7 +1445,7 @@ PBA version: default, 2.20240218
 Model compatibility: 2025.20250411
 Sub-Workflow: Facets-QQ-GEX
 Workflow updated: -
-Sun Sun Jun  7 12:19:44 2026
+Mon Mon Jun  8 15:38:46 2026
 ========================================================================
 
 ----------------------------------------------
@@ -1451,25 +1455,25 @@ Used point accuracy enhancement value: 74.00%.
 =============================================================================
 Mesh statistics:
 -----------------------------------------------------------------------------
-Minimum edge length (x): 0.497 @ mesh line 43 (x)
-Maximum edge length (x): 6.99 @ mesh line 0 (x)
-Minimum face area (x): 0.27 @ mesh lines 20 | 11 (y | z)
-Maximum face area (x): 50 @ mesh lines 39 | 20 (y | z)
+Minimum edge length (x): 0.497 @ mesh line 41 (x)
+Maximum edge length (x): 6.37 @ mesh line 67 (x)
+Minimum face area (x): 0.236 @ mesh lines 20 | 12 (y | z)
+Maximum face area (x): 40.5 @ mesh lines 0 | 0 (y | z)
 Minimum edge length (y): 0.5 @ mesh line 20 (y)
-Maximum edge length (y): 7 @ mesh line 39 (y)
-Minimum face area (y): 0.269 @ mesh lines 11 | 43 (z | x)
-Maximum face area (y): 49.9 @ mesh lines 20 | 0 (z | x)
-Minimum edge length (z): 0.54 @ mesh line 11 (z)
-Maximum edge length (z): 7.15 @ mesh line 20 (z)
-Minimum face area (z): 0.249 @ mesh lines 43 | 20 (x | y)
-Maximum face area (z): 48.9 @ mesh lines 0 | 39 (x | y)
-Maximum mesh face aspect ratio (x): 14.3 : 1.0  @ mesh lines 20 | 20 (y | z)
-Maximum mesh face aspect ratio (y): 14.4 : 1.0  @ mesh lines 20 | 43 (z | x)
-Maximum mesh face aspect ratio (z): 14.1 : 1.0  @ mesh lines 43 | 39 (x | y)
+Maximum edge length (y): 6.36 @ mesh line 0 (y)
+Minimum face area (y): 0.235 @ mesh lines 12 | 41 (z | x)
+Maximum face area (y): 40.5 @ mesh lines 0 | 67 (z | x)
+Minimum edge length (z): 0.473 @ mesh line 12 (z)
+Maximum edge length (z): 6.37 @ mesh line 0 (z)
+Minimum face area (z): 0.249 @ mesh lines 41 | 20 (x | y)
+Maximum face area (z): 40.5 @ mesh lines 67 | 0 (x | y)
+Maximum mesh face aspect ratio (x): 13.5 : 1.0  @ mesh lines 0 | 12 (y | z)
+Maximum mesh face aspect ratio (y): 13.5 : 1.0  @ mesh lines 12 | 67 (z | x)
+Maximum mesh face aspect ratio (z): 12.8 : 1.0  @ mesh lines 41 | 0 (x | y)
 =============================================================================
 
 =============================================================================
-Available resources to store TST cells: 2147417801 (3261272.97% of mesh size)
+Available resources to store TST cells: 2147418580 (3300319.03% of mesh size)
 =============================================================================
 
 ========================================================================
@@ -1556,10 +1560,10 @@ Finished CAD processing
 =======================
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Sun Sun Jun  7 12:19:45 2026
+Mon Mon Jun  8 15:38:47 2026
 Resource usage for processing CAD model:
-	Runtime                 00:00:01.00154 s
-	Peak Memory Usage:               21 MB
+	Runtime                 00:00:00.00944 s
+	Peak Memory Usage:               22 MB
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 =============================================================================================================
@@ -1592,7 +1596,7 @@ Memory downscale: 1
 Shared memory representation: read/write
 CPU load: 12.50%
 Emptiness: 0.00%
-Hex mesh complexity: 0.06048
+Hex mesh complexity: 0.05984
 Geometric complexity: 0.02301
 lower size limit of domain (1D): 60
 ------------------------------------------------------------
@@ -1606,33 +1610,33 @@ Currently running jobs: 0
 Waiting jobs: 2
 Concurrency for section: 2/2
 Memory physically installed: 33.7775 GB
-Memory currently available: 18.1956 GB
-Memory already used: 15.5818 GB
+Memory currently available: 13.8326 GB
+Memory already used: 19.9448 GB
 Memory reserved: 0 GB - Scale: 0.6
 Matrix calculation @ 1xN-Node 0001
-	Mesh coverage: 3108000.00 %
-	Estimated peak memory usage per node: 82 MB , tightness: 0.45 %
+	Mesh coverage: 3080000.00 %
+	Estimated peak memory usage per node: 82 MB , tightness: 0.59 %
 	GPU acceleration: off
 	Processor group: 0
 Matrix calculation @ 1xN-Node 0000
-	Mesh coverage: 3024000.00 %
-	Estimated peak memory usage per node: 82 MB , tightness: 0.45 %
+	Mesh coverage: 2992000.00 %
+	Estimated peak memory usage per node: 82 MB , tightness: 0.59 %
 	GPU acceleration: off
 	Processor group: 0
 Node distribution on 1 processor group: 2
 -------------------------------------------------------------------
 
 -----------------------------------
-Mesh: # of points excl. TSTs: 65846
-      # of points incl. TSTs: 65850
+Mesh: # of points excl. TSTs: 65067
+      # of points incl. TSTs: 65071
 -----------------------------------
 
 ===========================================
 Data rearrangement statistics:
-Disk IO directories:	00:00:00.0003
-Disk IO node domain files:	00:00:00.0297
+Disk IO directories:	00:00:00.0020
+Disk IO node domain files:	00:00:00.0532
 Disk IO FI domain files:	00:00:00.0000
-Disk IO meta information:	00:00:00.0047
+Disk IO meta information:	00:00:00.0243
 Sequential merge (TST):	00:00:00.0000
 ===========================================
 
@@ -1651,9 +1655,9 @@ Sequential merge (TST):	00:00:00.0000
          =============================
 
 1xN000:  ==================================================
-         [Mesh] world: o(0000,0000,0000) e(0073,0041,0022)
-         [Mesh] l-1xN: o(0000,0000,0000) e(0037,0041,0022)
-         [Mesh] e-1xN: o(0000,0000,0000) e(0039,0041,0022)
+         [Mesh] world: o(0000,0000,0000) e(0069,0041,0023)
+         [Mesh] l-1xN: o(0000,0000,0000) e(0035,0041,0023)
+         [Mesh] e-1xN: o(0000,0000,0000) e(0037,0041,0023)
          [Mesh] g-MPI: not available
          [Mesh] bound offset: (0 | 2 | 0)
          ==================================================
@@ -1671,7 +1675,7 @@ Sequential merge (TST):	00:00:00.0000
             + numa nodes                  : 1
             + Numa Memory Info
               numa node     installed     available    (MByte)
-                0                 0         17352
+                0                 0         13177
             + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
          performance cores:
          apic ids           : 32, 33, 16, 17, 24, 25, 40, 41, 48, 49, 56, 57
@@ -1762,20 +1766,20 @@ Sequential merge (TST):	00:00:00.0000
          Start ID: 1
          Node ID: 0
          HEX Mesh information:
-         Hex mesh: node: [hxr o(0 | 0 | 0) s(37 | 41 | 22) np (no TSTs): 33374]
-         Hex mesh: extended: [hxr o(0 | 0 | 0) s(39 | 41 | 22) np (no TSTs): 35178]
+         Hex mesh: node: [hxr o(0 | 0 | 0) s(35 | 41 | 23) np (no TSTs): 33005]
+         Hex mesh: extended: [hxr o(0 | 0 | 0) s(37 | 41 | 23) np (no TSTs): 34891]
          ===================================================================================================
 
 1xN000:  -----------------------------------------------------
          Memory status on node "1xN000" for matrix calculation
          	Estimated memory consumption: 0.0822281 GB
          	Physical memory installed: 33.7775 GB
-         	Available physical memory: 18.1938 GB
-         	Available relative memory: 53.8637 %
+         	Available physical memory: 13.8454 GB
+         	Available relative memory: 40.9901 %
          -----------------------------------------------------
 
 1xN000:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Sun Sun Jun  7 12:19:46 2026
+         Mon Mon Jun  8 15:38:49 2026
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -1788,7 +1792,7 @@ Sequential merge (TST):	00:00:00.0000
          Model compatibility: 2025.20250411
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Sun Sun Jun  7 12:19:46 2026
+         Mon Mon Jun  8 15:38:49 2026
          ============================================================
 
 1xN000:  ----------------------------------------------
@@ -1835,7 +1839,7 @@ Sequential merge (TST):	00:00:00.0000
          ===============
 
 1xN000:  ===============================================================================================================================================
-         TST cell analysis in range (0 | 0 | 0) -> (39 | 41 | 22) [total range (0 | 0 | 0) -> (73 | 41 | 22)]  [mpi range (0 | 0 | 0) -> (73 | 41 | 22)]
+         TST cell analysis in range (0 | 0 | 0) -> (37 | 41 | 23) [total range (0 | 0 | 0) -> (69 | 41 | 23)]  [mpi range (0 | 0 | 0) -> (69 | 41 | 23)]
          ===============================================================================================================================================
 
 1xN000:  -------------------
@@ -1887,11 +1891,11 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN000:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Sun Sun Jun  7 12:19:48 2026
+         Mon Mon Jun  8 15:38:55 2026
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:02.00461 s
+         	Runtime                          00:00:06.00585 s
          	Peak Memory Estimation:                   82 MB
-         	Peak Memory Usage:                        56 MB
+         	Peak Memory Usage:                        59 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
@@ -1911,9 +1915,9 @@ Sequential merge (TST):	00:00:00.0000
          ==============================
 
 1xN001:  ==================================================
-         [Mesh] world: o(0000,0000,0000) e(0073,0041,0022)
-         [Mesh] l-1xN: o(0035,0000,0000) e(0073,0041,0022)
-         [Mesh] e-1xN: o(0033,0000,0000) e(0073,0041,0022)
+         [Mesh] world: o(0000,0000,0000) e(0069,0041,0023)
+         [Mesh] l-1xN: o(0033,0000,0000) e(0069,0041,0023)
+         [Mesh] e-1xN: o(0031,0000,0000) e(0069,0041,0023)
          [Mesh] g-MPI: not available
          [Mesh] bound offset: (-2 | 0 | 0)
          ==================================================
@@ -1931,7 +1935,7 @@ Sequential merge (TST):	00:00:00.0000
             + numa nodes                  : 1
             + Numa Memory Info
               numa node     installed     available    (MByte)
-                0                 0         17352
+                0                 0         13190
             + internal cpu info           : CPUID: selected engine is 'Leaf 0xB detection'
          performance cores:
          apic ids           : 32, 33, 16, 17, 24, 25, 40, 41, 48, 49, 56, 57
@@ -2022,20 +2026,20 @@ Sequential merge (TST):	00:00:00.0000
          Start ID: 0
          Node ID: 1
          HEX Mesh information:
-         Hex mesh: node: [hxr o(35 | 0 | 0) s(38 | 41 | 22) np (no TSTs): 34276]
-         Hex mesh: extended: [hxr o(33 | 0 | 0) s(40 | 41 | 22) np (no TSTs): 36080]
+         Hex mesh: node: [hxr o(33 | 0 | 0) s(36 | 41 | 23) np (no TSTs): 33948]
+         Hex mesh: extended: [hxr o(31 | 0 | 0) s(38 | 41 | 23) np (no TSTs): 35834]
          ===================================================================================================
 
 1xN001:  -----------------------------------------------------
          Memory status on node "1xN001" for matrix calculation
          	Estimated memory consumption: 0.0822301 GB
          	Physical memory installed: 33.7775 GB
-         	Available physical memory: 18.1938 GB
-         	Available relative memory: 53.8638 %
+         	Available physical memory: 13.8474 GB
+         	Available relative memory: 40.9958 %
          -----------------------------------------------------
 
 1xN001:  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-         Sun Sun Jun  7 12:19:46 2026
+         Mon Mon Jun  8 15:38:49 2026
          started: calculating matrix coefficients per node
          >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -2048,7 +2052,7 @@ Sequential merge (TST):	00:00:00.0000
          Model compatibility: 2025.20250411
          Sub-Workflow: FARM-1xN-TST2-Node
          Workflow updated: -
-         Sun Sun Jun  7 12:19:46 2026
+         Mon Mon Jun  8 15:38:49 2026
          ============================================================
 
 1xN001:  ----------------------------------------------
@@ -2095,7 +2099,7 @@ Sequential merge (TST):	00:00:00.0000
          ===============
 
 1xN001:  ================================================================================================================================================
-         TST cell analysis in range (33 | 0 | 0) -> (73 | 41 | 22) [total range (0 | 0 | 0) -> (73 | 41 | 22)]  [mpi range (0 | 0 | 0) -> (73 | 41 | 22)]
+         TST cell analysis in range (31 | 0 | 0) -> (69 | 41 | 23) [total range (0 | 0 | 0) -> (69 | 41 | 23)]  [mpi range (0 | 0 | 0) -> (69 | 41 | 23)]
          ================================================================================================================================================
 
 1xN001:  -------------------
@@ -2143,34 +2147,26 @@ Sequential merge (TST):	00:00:00.0000
          =================================
 
 1xN001:  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-         Sun Sun Jun  7 12:19:48 2026
+         Mon Mon Jun  8 15:38:57 2026
          Resource usage for calculating matrix coefficients per node:
-         	Runtime                          00:00:02.00506 s
+         	Runtime                          00:00:07.00884 s
          	Peak Memory Estimation:                   82 MB
-         	Peak Memory Usage:                        49 MB
+         	Peak Memory Usage:                        51 MB
          <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-Sun Sun Jun  7 12:19:53 2026
+Mon Mon Jun  8 15:39:05 2026
 Resource usage for parallelization control:
-	Runtime                      00:00:09.00858 s
+	Runtime                      00:00:19.00702 s
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 ------------------------------------------------------------------------------------------------------------------------------
-PBAMeshFeedback - InfoMap: 0[ms] - SBCell navigation: Using legacy edges - CornerCorrectionLinesAndWires: 0[ms] - Write: 0[ms]
-ConnectivityAXG - Load: 1[ms] - Setup: 0[ms] - Convert: 0[ms] ( Groups: 2 - Shapes: 5 - Threads: 16 ) - Write: 0[ms]
-ConnectivityAXG - Load: 1[ms] - Setup: 0[ms] - Convert: 0[ms] ( Groups: 2 - Shapes: 5 - Threads: 16 ) - Write: 0[ms]
+PBAMeshFeedback - InfoMap: 0[ms] - SBCell navigation: Using legacy edges - CornerCorrectionLinesAndWires: 0[ms] - Write: 2[ms]
+ConnectivityAXG - Load: 2[ms] - Setup: 0[ms] - Convert: 0[ms] ( Groups: 2 - Shapes: 5 - Threads: 16 ) - Write: 0[ms]
+ConnectivityAXG - Load: 2[ms] - Setup: 0[ms] - Convert: 0[ms] ( Groups: 2 - Shapes: 5 - Threads: 16 ) - Write: 0[ms]
 ------------------------------------------------------------------------------------------------------------------------------
-
---------------------------------
-# of staircase filled cells: 0
-# of staircase filled areas: 0
-# of staircase filled edges: 0
-# of faces above fill limit: 0
-# of edges with FPBA topology: 0
---------------------------------
 
 --------------------------------
 # of staircase filled cells: 0

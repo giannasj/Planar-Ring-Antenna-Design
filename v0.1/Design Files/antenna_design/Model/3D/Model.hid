@@ -1,9 +1,5 @@
 20100312
 [start]hidden_objects
-[start]solids
-[start]component1:diamond
-[end]component1:diamond
-[end]solids
 [end]hidden_objects
 [start]draw_workplane
 false
@@ -231,7 +227,6 @@ Port.Delete "1"
 51
 [end]block_index
 [start]command
-
 '@ define port: 1
  (undo)
 [end]command
@@ -295,7 +290,6 @@ Port.Delete "1"
 56
 [end]block_index
 [start]command
-
 '@ define port: 1
  (undo)
 [end]command

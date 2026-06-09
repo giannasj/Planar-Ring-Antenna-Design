@@ -25,6 +25,11 @@
   <ResultGroups num_steps="0" transformation="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" process_mesh_group="0">
     <SharedDataWith/>
   </ResultGroups>
+  <InfoText num_lines="3">
+    <InfoTextLine key="Type" value="High Frequency Mesh" visible="1"/>
+    <InfoTextLine key="Mesh type" value="Hexahedral FIT" visible="1"/>
+    <InfoTextLine key="Meshcells" value="59,840" visible="1"/>
+  </InfoText>
   <AutoScale>
     <SmartScaling log_strength="1" log_anchor="0" log_anchor_type="0" db_range="40" phase="0"/>
   </AutoScale>

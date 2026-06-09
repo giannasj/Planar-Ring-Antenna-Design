@@ -8,15 +8,21 @@
     "crop-info-version": 20240828,
     "history": {
       "acceleration-flavour": [
+        1,
+        1,
         1
       ],
       "general-state": [
-        1
+        1,
+        5,
+        8
       ],
       "module": [
+        3,
+        2,
         3
       ],
-      "readable": "states: 0: {S: def M: So A: cpu } "
+      "readable": "states: 0: {S: def M: So A: cpu } 1: {S: crp-pc M: PC A: cpu } 2: {S: ld-so M: So A: cpu } "
     },
     "naming": "v2024",
     "num-monitors": 0,
@@ -32,14 +38,14 @@
       34
     ],
     "np": {
-      "np-excl-tst": 65846,
-      "np-incl-tst": 65846,
-      "np-x-B": 65846,
-      "np-x-E": 65846,
-      "np-y-B": 65846,
-      "np-y-E": 65846,
-      "np-z-B": 65846,
-      "np-z-E": 65846
+      "np-excl-tst": 65067,
+      "np-incl-tst": 65067,
+      "np-x-B": 65067,
+      "np-x-E": 65067,
+      "np-y-B": 65067,
+      "np-y-E": 65067,
+      "np-z-B": 65067,
+      "np-z-E": 65067
     },
     "problem-type": 0
   },

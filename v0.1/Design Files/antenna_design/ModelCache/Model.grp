@@ -5,3 +5,7 @@
 <GROUPTYPE>1
 <GROUP>Excluded from Simulation
 <GROUPTYPE>0
+<GROUP>meshgroup1
+<GROUPTYPE>3
+<ENTITY>component1:antenna
+<TYPE>SOLID

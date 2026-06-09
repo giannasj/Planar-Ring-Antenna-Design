@@ -1,0 +1,51 @@
+{
+   "execution": {
+      "classname": "SMAPowerByEmagHPCFrame",
+      "libname": "SMAPowerByEmagUI"
+   },
+   "inputVariables": [
+      {
+         "name": "r1",
+         "type": "float",
+         "value": 0.5
+      },
+      {
+         "name": "r2",
+         "type": "float",
+         "value": 5.0
+      },
+      {
+         "name": "s",
+         "type": "float",
+         "value": 1.5
+      },
+      {
+         "name": "g",
+         "type": "float",
+         "value": 0.1
+      },
+      {
+         "name": "w1",
+         "type": "float",
+         "value": 0.54
+      },
+      {
+         "name": "w2",
+         "type": "float",
+         "value": 1.26
+      },
+      {
+         "name": "l",
+         "type": "float",
+         "value": 23.0
+      }
+   ],
+   "outputVariables": [
+      {
+         "len": 1,
+         "name": "3D\\h-field (f=2.87) (1)10000Mu0",
+         "type": "float",
+         "value": 0.0
+      }
+   ]
+}

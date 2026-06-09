@@ -1,13 +1,5 @@
 MWS Result File Version 20150206
-size=i:74
-
-type=s:HIDDENITEM
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-files=s:h-field (f=2.58)_1,1.m3d
+size=i:80
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -17,6 +9,14 @@ lifetime=s:surviveparchange
 result=s:1
 files=s:simulation_overview.json
 
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:ZRef1(1)_orig.sig
+
 type=s:DATA_FOLDER
 problemclass=s::8:1000
 visibility=s:hidden
@@ -24,6 +24,14 @@ creation=s:internal
 lifetime=s:rebuild
 result=s:1
 files=s:raw_data
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:$SIMonItem$_1_1.s3d
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -48,6 +56,14 @@ creation=s:internal
 lifetime=s:rebuild
 result=s:1
 files=s:RefSpectrum_1.sig
+
+type=s:HIDDENITEM
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+files=s:h-field (f=2.58)_1,1.m3d
 
 type=s:HIDDENITEM
 problemclass=s::8:1000
@@ -448,6 +464,46 @@ result=s:1
 treepath=s:1D Results\Power\Excitation [1]\Loss in Metals
 files=s:cTotal_metal_loss(1).sig
 
+type=s:HFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\H-Field\h-field (f=2.87) [1]
+files=s:h-field (f=2.87)_1,1.m3d
+files=s:h-field (f=2.87)_1,1_m3d.rex
+
+type=s:SURFACECURRENT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\Surface Current\surface current (f=2.87) [1]
+files=s:h-field (f=2.87)_1,1.m3d
+files=s:h-field (f=2.87)_1,1_m3d_sct.rex
+
+type=s:HFIELD3D
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\H-Field\h-field (f=2.58) [1]
+files=s:h-field (f=2.58)_1,1.m3d
+files=s:h-field (f=2.58)_1,1_m3d.rex
+
+type=s:SURFACECURRENT
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:2D/3D Results\Surface Current\surface current (f=2.58) [1]
+files=s:h-field (f=2.58)_1,1.m3d
+files=s:h-field (f=2.58)_1,1_m3d_sct.rex
+
 type=s:XYSIGNAL
 subtype=s:time
 problemclass=s::8:1000
@@ -589,6 +645,26 @@ treepath=s:1D Results\Power\Excitation [1]\Loss in Dielectrics
 files=s:cTotal_loss_in_dielectrics(1).sig
 
 type=s:XYSIGNAL
+subtype=s:balance
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Balance\unnorm\1
+files=s:unnorm^1.bil
+
+type=s:XYSIGNAL
+subtype=s:complex
+problemclass=s::8:1000
+visibility=s:visible
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\Reference Impedance\ZRef 1(1)
+files=s:ZRef1(1).sig
+
+type=s:XYSIGNAL
 subtype=s:complex
 problemclass=s::8:1000
 visibility=s:visible
@@ -621,12 +697,12 @@ files=s:vswr1(1).sig
 type=s:XYSIGNAL
 subtype=s:complex
 problemclass=s::8:1000
-visibility=s:visible
+visibility=s:hidden
 creation=s:internal
 lifetime=s:rebuild
 result=s:1
-treepath=s:1D Results\Reference Impedance\ZRef 1(1)
-files=s:ZRef1(1).sig
+treepath=s:1D Results\Reference Impedance\ZRef 1(1)_orig
+files=s:ZRef1(1)_orig.sig
 
 type=s:XYSIGNAL
 subtype=s:complex
@@ -661,35 +737,6 @@ treepath=s:Tables\0D Results\h-field (f=2.87) (1)10000Mu0
 files=s:h-field (f=2.87) (1)10000Mu0.rd0
 files=s:h-field (f=2.87) (1)10000Mu0.rd0
 
-type=s:RESULT_0D
-problemclass=s::8:1000
-visibility=s:hidden
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:1D Results\AutomaticRunInformation
-files=s:AutomaticRunInformation
-
-type=s:HFIELD3D
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\H-Field\h-field (f=2.58) [1]
-files=s:h-field (f=2.58)_1,1.m3d
-files=s:h-field (f=2.58)_1,1_m3d.rex
-
-type=s:SURFACECURRENT
-problemclass=s::8:1000
-visibility=s:visible
-creation=s:internal
-lifetime=s:rebuild
-result=s:1
-treepath=s:2D/3D Results\Surface Current\surface current (f=2.58) [1]
-files=s:h-field (f=2.58)_1,1.m3d
-files=s:h-field (f=2.58)_1,1_m3d_sct.rex
-
 type=s:HFIELD3D
 problemclass=s::8:1000
 visibility=s:visible
@@ -712,4 +759,13 @@ result=s:1
 treepath=s:Tables\0D Results\1h-field (f=2.58) (1)10000Mu0
 files=s:1h-field (f=2.58) (1)10000Mu0.rd0
 files=s:1h-field (f=2.58) (1)10000Mu0.rd0
+
+type=s:RESULT_0D
+problemclass=s::8:1000
+visibility=s:hidden
+creation=s:internal
+lifetime=s:rebuild
+result=s:1
+treepath=s:1D Results\AutomaticRunInformation
+files=s:AutomaticRunInformation
 

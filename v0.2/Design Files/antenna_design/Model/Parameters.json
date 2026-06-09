@@ -1,0 +1,40 @@
+{
+    "parameters": [
+        {
+            "expr": "0.5",
+            "name": "r1",
+            "value": "0.5"
+        },
+        {
+            "expr": "5",
+            "name": "r2",
+            "value": "5"
+        },
+        {
+            "expr": "1.5",
+            "name": "s",
+            "value": "1.5"
+        },
+        {
+            "expr": "0.1",
+            "name": "g",
+            "value": "0.1"
+        },
+        {
+            "expr": "0.54",
+            "name": "w1",
+            "value": "0.54"
+        },
+        {
+            "expr": "1.26",
+            "name": "w2",
+            "value": "1.26"
+        },
+        {
+            "expr": "23",
+            "name": "l",
+            "value": "23"
+        }
+    ],
+    "version": 1
+}

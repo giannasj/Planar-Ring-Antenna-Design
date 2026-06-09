@@ -1,0 +1,6 @@
+ParaControl_AMD64-1xN @ gurt:  ==============================================================================================
+                               8193.00 ms |          | SV-crop-all | Outside MCalcResultIdentification | 27.40 MB | 0.0000 MB
+                               8195.00 ms |  --> 3rd | SV-crop-all |                        All meshes | 28.23 MB | 0.8274 MB
+                               8200.00 ms | --> peak | SV-crop-all |                        All meshes | 28.25 MB | 0.0164 MB
+                               8200.00 ms |  --> 2nd | SV-crop-all | Outside MCalcResultIdentification | 28.25 MB | 0.0000 MB
+                               ==============================================================================================

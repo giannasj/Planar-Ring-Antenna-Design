@@ -1,0 +1,19 @@
+Post-processing Logfile 
+
+----------------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+----------------------------------------------------------------------------------------
+
+Template based post-processing started at: 2026-06-09 10:54:04
+
+  Evaluating 'h-field (f=2.87) (1)10000Mu0': 2.33 s
+
+  Total time: 2 s  ( = 0 h, 0 m, 2 s )
+
+Template based post-processing finished at: 2026-06-09 10:54:07
+----------------------------------------------------------------------------------------
