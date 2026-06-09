@@ -1,4 +1,5 @@
 ## v0.2 Design Parameters
+<img width="1353" height="502" alt="diagram" src="https://github.com/user-attachments/assets/e950ea7e-4e27-4919-928c-c762726e7147" />
 
 r: 0.5 mm
 g: 0.1 mm
